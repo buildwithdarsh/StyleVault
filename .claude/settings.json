@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(shopt -s dotglob)",
+      "Bash(mv app/* .)",
+      "WebFetch(domain:images.unsplash.com)",
+      "Bash(git diff:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git merge:*)",
+      "Bash(git clean:*)",
+      "Bash(git fsck:*)",
+      "Bash(git log:*)",
+      "Bash(git diff-tree:*)",
+      "Bash(git remote:*)",
+      "Read(//Users/alex/Dev/Personal/Darsh Gupta/StyleVault/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/alex/Dev/Personal/Darsh Gupta/StyleVault/src/app/products/[id]"
+    ]
+  }
+}
